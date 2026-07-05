@@ -1,0 +1,37 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Reports
+reports/*.json
+reports/*.html
+reports/*.csv
+reports/*.png
+reports/*.pdf
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

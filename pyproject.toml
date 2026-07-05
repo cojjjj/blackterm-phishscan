@@ -1,0 +1,22 @@
+[project]
+name = "blackterm-phishscan"
+version = "1.1.0"
+description = "BlackTerm PhishScan - phishing URL intelligence scanner"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama",
+    "rich",
+    "requests",
+    "validators",
+    "python-dotenv",
+    "python-whois",
+    "dnspython",
+    "ipwhois",
+    "playwright"
+]
+
+[project.scripts]
+blackterm = "blackterm.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
